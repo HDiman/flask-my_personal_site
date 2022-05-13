@@ -1,64 +1,74 @@
 <!DOCTYPE html>
-<html>
-<!--Simple-->
+<html lang="en">
+<!--HD-->
 <head>
-    <meta charset="utf-8">
-    <title>Dmitry's Personal Site</title>
+    <meta charset="UTF-8">
+    <title>Dmitry Sannikov</title>
     <link rel="stylesheet" href="static/styles.css">
-    <link rel="icon" href="static/favicon.ico?v=2">
+    <link rel="icon" href="static/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<table cellspacing="20">
-    <tr>
-        <td><img src="static/dmitry.jpg" alt="dmitry profile picture" width="180" height="180"></td>
-        <td><h1>Dmitry Sannikov</h1>
-            <p><em>I am a Python and Web Developer. I like to scrape data from web for new projects.</em></p></td>
-    </tr>
-</table>
-<hr>
-<h3>My Study Life:</h3>
-<ul>
-    <li>Mastering Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps in <a href="https://www.udemy.com/course/100-days-of-code/">UDEMY</a></li>
-</ul>
-<hr>
-<h3>Work Experience:</h3>
-<table cellspacing="10">
-    <thead>
-    <tr>
-        <th>Dates</th>
-        <th>Work</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>2021-2022</td>
-        <td>Programming in Python</td>
-    </tr>
-    </tbody>
-</table>
-<hr>
-<h3>Skills</h3>
-<table cellspacing="10">
-    <tr>
-        <td>Web Development</td>
-        <td>⭐️⭐️⭐️️</td>
-    </tr>
-    <tr>
-        <td>Programming</td>
-        <td>⭐️⭐️⭐️</td>
-    </tr>
-    <tr>
-        <td>Photography</td>
-        <td>⭐️⭐️</td>
-    </tr>
-</table>
-<hr>
-<a href="hobbies.html">My Hobbies</a>
-<a href="contact-me.html">Contact Me</a>
-</body>
+    <div class="top-container">
+        <img class="top-cloud" src="static/cloud.png" alt="cloud-img">
+        <h1>I'm Dmitry</h1>
+        <h2>a <span>pro</span>grammer</h2>
+        <img class="bottom-cloud" src="static/cloud.png" alt="cloud-img">
+        <img src="static/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="my_img" src="static/dmitry.jpg" alt="dmitry-img">
+            <h2>Hello</h2>
+            <p>I am a Python and Web Developer. I like to scrape data from web for new projects.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Study Life:</h2>
+            <div class="skill-row">
+                <img class="" src="" alt="">
+                <p>Mastering Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps in <a href="https://www.udemy.com/course/100-days-of-code/">UDEMY</a></p>
+            </div>
+            <div class="skill-row">
+                <img class="" src="" alt="">
+                <h3>Work Experience:</h3>
+                <table cellspacing="10">
+                    <thead>
+                    <tr>
+                        <th>Dates</th>
+                        <th>Work</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>2021-2022</td>
+                        <td>Programming in Python</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+            <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+            <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        </div>
+    </div>
 
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2022 Dmitry Sannikov</p>
+    </div>
+
+
+
+</body>
 </html>
